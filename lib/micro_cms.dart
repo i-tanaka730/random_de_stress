@@ -3,12 +3,12 @@ import 'dart:convert';
 
 class MicroCmsService {
 
-  Future<dynamic> getDeStressListJson(String url, String apiKey) async {
-    dynamic jsonData;
+  Future<dynamic> getDeStressJson(String url, String apiKey) async {
+    dynamic deStressJson;
     await http.get(url, headers: {"X-API-KEY": apiKey}).then((response) {
-      jsonData = json.decode(response.body);
+      deStressJson = json.decode(response.body);
     });
-    return jsonData;
+    return deStressJson;
   }
 
 }

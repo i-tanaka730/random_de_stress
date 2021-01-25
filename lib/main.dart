@@ -42,8 +42,8 @@ class _RandomDeStressPageState extends State<RandomDeStressPage> {
   Future _parse() async {
     var url = DotEnv().env['MICRO_CMS_URL'];
     var apiKey = DotEnv().env['MICRO_CMS_API_KEY'];
-    var deStressListJson = await _microCmsService.getDeStressListJson(url, apiKey);
-    _deStressParser.parse(deStressListJson);
+    var deStressJson = await _microCmsService.getDeStressJson(url, apiKey);
+    _deStressParser.parse(deStressJson);
   }
 
   void _update() {
