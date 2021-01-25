@@ -1,16 +1,22 @@
 # random_de_stress
 
-A new Flutter application.
+## Overview
 
-## Getting Started
+It is an flutter application that randomly displays stress relief methods.
 
-This project is a starting point for a Flutter application.
+## Requirement
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter
+- microCMS
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Requires ".env" in root directory.
+```
+MICRO_CMS_URL=xxxxxxxxxx
+MICRO_CMS_API_KEY=xxxxxxxxxx
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+[MIT](https://github.com/i-tanaka730/random_de_stress/blob/main/LICENSE)
+
+## Author
+[Ikuya Tanaka](https://github.com/i-tanaka730)
